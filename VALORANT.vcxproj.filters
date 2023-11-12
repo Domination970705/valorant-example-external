@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{20faf99a-a809-4dea-bcda-c978bef6f649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{c4e7c604-c641-464d-ae0e-5e308c5beff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat">
+      <UniqueIdentifier>{0f602f12-c7b2-49fb-afa7-bb8baf39e5be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\sdk">
+      <UniqueIdentifier>{f77b06b1-d092-4565-998f-517adba79c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\overlay">
+      <UniqueIdentifier>{54985de3-dd29-4ce2-8a60-04bf760e01f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\kdmapper">
+      <UniqueIdentifier>{c8983ea5-2db7-4ffb-ab5c-79a7191b0be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\Images">
+      <UniqueIdentifier>{00073bd9-860e-4e26-9f88-a608661838c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\Icons">
+      <UniqueIdentifier>{66496782-fff2-4410-bf39-76a9ef21a736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\com">
+      <UniqueIdentifier>{621ea875-ea94-49f7-adf6-0e00996cfc2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{b7472a29-5a7c-4deb-b763-74263e992ea8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kdmapper\intel_driver.hpp">
+      <Filter>cheat\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\intel_driver_resource.hpp">
+      <Filter>cheat\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\kdmapper.hpp">
+      <Filter>cheat\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\nt.hpp">
+      <Filter>cheat\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\portable_executable.hpp">
+      <Filter>cheat\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\service.hpp">
+      <Filter>cheat\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\utils.hpp">
+      <Filter>cheat\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay.h">
+      <Filter>cheat\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>cheat\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="iconcpp.h">
+      <Filter>imgui\Icons</Filter>
+    </ClInclude>
+    <ClInclude Include="icons.h">
+      <Filter>imgui\Icons</Filter>
+    </ClInclude>
+    <ClInclude Include="Images.h">
+      <Filter>imgui\Images</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>cheat\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="drv.h">
+      <Filter>cheat\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>cheat\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>cheat\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>cheat\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>cheat\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>cheat\com</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\curl\include\curl\curl.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="GUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="auth1.hpp">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="skCrypt.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_sprintf.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="VkKey.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="kdmapper\intel_driver.cpp">
+      <Filter>cheat\kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="kdmapper\kdmapper.cpp">
+      <Filter>cheat\kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="kdmapper\portable_executable.cpp">
+      <Filter>cheat\kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="kdmapper\service.cpp">
+      <Filter>cheat\kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="kdmapper\utils.cpp">
+      <Filter>cheat\kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="memory.cpp">
+      <Filter>cheat\com</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="library_x64.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="libs\zlib.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="DirectX9\Lib\d3dx9.lib">
+      <Filter>lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
